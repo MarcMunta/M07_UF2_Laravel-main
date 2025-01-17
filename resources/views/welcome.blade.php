@@ -22,6 +22,7 @@
         <li><a href=/filmout/films>Pelis</a></li>
         <li><a href="/filmout/filmsByYear">Pelis por años</a></li>
         <li><a href="/filmout/filmsByGenre">Pelis por genero</a></li>
+        <li><a href="/filmout/sortFilms">Pelis por año de mayor a menor</a></li>
     </ul>
     <!-- Add Bootstrap JS and Popper.js (required for Bootstrap) -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>

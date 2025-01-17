@@ -28,6 +28,7 @@ Route::middleware('year')->group(function() {
         Route::get('films/count',[FilmController::class, "countFilms"])->name('countFilms');
         Route::get('filmsByYear/{year?}',[FilmController::class, "filmsByYear"])->name('filmsByYear');
         Route::get('filmsByGenre/{genre?}',[FilmController::class, "filmsByGenre"])->name('filmsByGenre');
+        Route::get('sortFilms/{year?}',[FilmController::class, "sortFilms"])->name('sortFilms');
     });
 });
 
