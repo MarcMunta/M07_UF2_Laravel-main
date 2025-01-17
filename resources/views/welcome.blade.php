@@ -15,6 +15,7 @@
 <body class="container">
 
     <h1 class="mt-4">Lista de Peliculas</h1>
+    <!-- Issue 2 hecha -->
     <ul>
         <li><a href=/filmout/oldFilms>Pelis antiguas</a></li>
         <li><a href=/filmout/newFilms>Pelis nuevas</a></li>
