@@ -88,7 +88,7 @@ class FilmController extends Controller
     {
         $films_filtered = [];
 
-        $title = "Listado de todas las pelis";
+        $title = "Listado de todas las pelis por año";
         $films = FilmController::readFilms();
 
         if (is_null($year))
@@ -107,7 +107,7 @@ class FilmController extends Controller
     {
         $films_filtered = [];
 
-        $title = "Listado de todas las pelis";
+        $title = "Listado de todas las pelis por genero";
         $films = FilmController::readFilms();
 
         if (is_null($genre))
