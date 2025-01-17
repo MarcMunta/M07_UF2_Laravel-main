@@ -1,5 +1,4 @@
 <h1>{{$title}}</h1>
-<h2>Contador: {{contador}}</h2>
 
 @if(empty($films))
     <FONT COLOR="red">No se ha encontrado ninguna película</FONT>
@@ -20,6 +19,8 @@
                 <td>{{$film['name']}}</td>
                 <td>{{$film['year']}}</td>
                 <td>{{$film['genre']}}</td>
+                <td>{{$film['county']}}</td>
+                <td>{{$film['duration']}}</td>
                 <td><img src={{$film['img_url']}} style="width: 100px; heigth: 120px;" /></td>
             </tr>
         @endforeach
